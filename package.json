@@ -1,0 +1,14 @@
+{
+  "name": "pylana",
+  "version": "1.0.0",
+  "description": "Experimental proof-of-concept that compiles Python code into a Solana-compatible sBPF binary using a custom LLVM IR transpiler.",
+  "main": "invoke.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4"
+  }
+}
