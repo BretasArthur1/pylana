@@ -17,7 +17,7 @@ echo ""
 
 # Link bitcode to Solana sBPF
 echo "Linking bitcode to Solana sBPF..."
-sbpf-linker --cpu v3 --export entrypoint --output hello_world.so program.bc 2>&1 | grep -v "unable to open LLVM" || true
+sbpf-linker --cpu v2 --export entrypoint --output hello_world.so program.bc 2>&1 | grep -v "unable to open LLVM" || true
 echo "✓ Generated hello_world.so (Solana sBPF binary)"
 echo ""
 
