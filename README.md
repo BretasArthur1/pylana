@@ -76,7 +76,7 @@ builder.call(sol_log_ptr, [string_ptr, message_len])
 
 In the end we're just generating LLVM IR that Solana can understand, and then compiling it to sBPF with sbpf-linker.
 
-## Resourcer
+## Resources
 
 - [LLVM IR](https://llvm.org/docs/LangRef.html)
 - [sbpf-linker](https://github.com/blueshift-gg/sbpf-linker)
